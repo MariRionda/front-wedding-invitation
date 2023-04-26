@@ -1,8 +1,10 @@
-const Home = ()=>{
-    return(
-        <div>
-            Wedding Invitation 💑
-        </div>
-    )
-}
-export default Home;
+import FormLogin from '../components/formLogin/formLogin';
+
+const Login = () => {
+  return (
+    <div>
+      <FormLogin />
+    </div>
+  );
+};
+export default Login
